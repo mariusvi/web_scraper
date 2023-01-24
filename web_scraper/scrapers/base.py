@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-from scraper.models.item import Item, ItemLink, GroupLink
+from web_scraper.models.item import Item, ItemLink, GroupLink
 
 
 class BaseScraper(ABC):
@@ -27,7 +27,7 @@ class BaseScraper(ABC):
         categories_links: List[Optional[GroupLink]] = self._retrieve_categories_list()
         
         scraped_items_links: List[Optional[ItemLink]] = []
-        for categorie in categories_links[5:8]:
+        for categorie in categories_links[3:8]:
             items_links: List[Optional[ItemLink]] = self._retrieve_items_list(categorie.url)
             scraped_items_links.append(items_links)
 

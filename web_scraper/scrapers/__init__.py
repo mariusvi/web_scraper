@@ -1,3 +1,3 @@
-from scraper.scrapers.crypto import Crypto
+from web_scraper.scrapers.crypto import Crypto
 
 SCRAPERS = {"crypto": Crypto}

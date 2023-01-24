@@ -1,6 +1,6 @@
 from typing import List
-from scraper.models.item import Item, ItemLink, GroupLink
-from scraper.scrapers.base import BaseScraper
+from web_scraper.models.item import Item, ItemLink, GroupLink
+from web_scraper.scrapers.base import BaseScraper
 
 
 

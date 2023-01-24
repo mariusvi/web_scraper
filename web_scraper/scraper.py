@@ -1,7 +1,7 @@
 from typing import Dict, List
 
-from scraper.scrapers import SCRAPERS
-from scraper.scrapers.base import BaseScraper
+from web_scraper.scrapers import SCRAPERS
+from web_scraper.scrapers.base import BaseScraper
 
 
 class Scraper:
