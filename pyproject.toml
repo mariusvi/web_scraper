@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "web-scraper"
+name = "web_scraper"
 version = "0.1.0"
 description = "simple web scraper"
 authors = ["mariusvi <marius@vilkaitis.lt>"]
